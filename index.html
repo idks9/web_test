@@ -9,7 +9,7 @@
     <script>
         window.onload = () => {
             document.getElementById("aa").addEventListener("click", () => {
-                if(localStorage.getItem("test") !== "are you saving?") alert("Yes, it is")
+                if(localStorage.getItem("test") === "are you saving?") alert("Yes, it is")
                 else localStorage.setItem("test", "are you saving?")
             })
         }
