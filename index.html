@@ -6,12 +6,12 @@
     <title>Document</title>
 </head>
 <body>
+    <button id="aa">blablabla</button>
     <script>
         document.getElementById("aa").addEventListener("click", () => {
             if(localStorage.getItem("test") !== "are you saving?") alert("Yes, it is")
             else localStorage.setItem("test", "are you saving?")
         })
     </script>
-    <button id="aa">blablabla</button>
 </body>
 </html>
